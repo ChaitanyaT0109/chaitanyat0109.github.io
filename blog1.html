@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog2</title>
+        <link rel="stylesheet" href="blog1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>My First Cooking Adventure: Paneer Butter Masala Drama</h1>
+    </div>
+    <div id="blog1">
+        <div class="container1">
+            <!-- <div class="row"> -->
+                <div class="blog-col-1">
+                    <!-- <img src="paneerbuttermalasa.jpg"> -->
+                </div>
+                <div class="blog-col-2"> 
+                        
+                        <p>I was super excited to cook <span class="highlight">Paneer Butter Masala</span> for the first time. But things got crazy in my kitchen! I accidentally burnt all the onions black because I turned up the heat too high. What a mess! But hey, it was a learning experience.</p>
+                        <p>Even though I messed up, I didn't give up. I started over and tried again. It was like a wild ride in the kitchen, with some moments feeling like I was winning and others feeling like a disaster. But in the end, I managed to cook up a decent Paneer Butter Masala. It might not have been perfect, but it showed me that I can keep trying and get better at cooking. Now, armed with this experience, I'm ready to tackle my next culinary challenge with even more confidence and determination.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------- -->
+    <div class="content" id="comments-likes">
+      <div class="sub-content">
+        <div style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            ">
+            
+          <img src="dislike.png" id="like-dislike"
+            style="width: 50px; height: 50px; cursor: pointer; border: 0" />
+          <p style="display: inline" id="like-count">0</p>
+        </div>
+      </div>
+      <div class="sub-content">
+        <form id="comment-form" style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            ">
+          <h2>Comments</h2>
+          <input type="text" name="username" placeholder="Enter your name..."
+            style="width: 90%; padding: 10px; border-radius: 10px; border: 0" />
+          <input type="text" name="comment" placeholder="Enter your comment..." style="
+                width: 90%;
+                padding: 10px;
+                margin: 20px;
+                border-radius: 10px;
+                border: 0;
+              " />
+          <button type="submit" class="comment-btn">Comment</button>
+        </form>
+
+        <div id="comments" style="
+              text-align: left;
+              margin-top: 50px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            " class="comments-container"></div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="blog1.js"></script>
+
+</body>
+
+</html>
